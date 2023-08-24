@@ -61,7 +61,7 @@ class AddressBook:
 
     def search(self, query):
         results = []
-        queried_lower = query.lower()  # Перетворення на lowercase для порівняння
+        queried_lower = query.lower()  
 
         for record in self.records:
             if (
